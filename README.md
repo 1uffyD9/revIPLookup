@@ -17,4 +17,4 @@ Small tool to run reverse IP lookup for given IP, IP range or IP list
 ```
 
 ### Screenshot
-![image](https://user-images.githubusercontent.com/49385501/67034258-fc992880-f134-11e9-8096-8c223a260d95.png)
+![image](https://user-images.githubusercontent.com/49385501/67034444-50a40d00-f135-11e9-9cd2-7fd292c30173.png)
