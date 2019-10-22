@@ -98,7 +98,7 @@ class revIPLookup:
                 print('\r' + self.success + "Found a record for " + self.green + ip + ' ' * 20 + self.default)
                 for i in re.split('\n', req.text):
                     if ip not in i and i.strip():
-                        print ('\t' + self.success + i + self.default)
+                        print ('\t' + self.success + i + self.reset)
         except requests.exceptions.RequestException as e:
             sys.exit(self.error + "Something going wrong with the connection.Please check the connectivity" + self.reset)
 
