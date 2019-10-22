@@ -43,7 +43,7 @@ class revIPLookup:
             self.main()
 
         except KeyboardInterrupt:
-            sys.exit('\n' + self.error + "Keyboard inturruption occurd, exiting the program..")
+            sys.exit('\n' + self.error + "Keyboard inturruption occurd, exiting the program.." + self.reset)
 
     def get_args(self,):
         parser = argparse.ArgumentParser(description="revIPLookup will give you domain name(s) for the IP(s) you're given")
@@ -100,7 +100,7 @@ class revIPLookup:
                     if ip not in i and i.strip():
                         print ('\t' + self.success + i + self.default)
         except requests.exceptions.RequestException as e:
-            sys.exit(self.error + "Something going wrong with the connection.Please check the connectivity")
+            sys.exit(self.error + "Something going wrong with the connection.Please check the connectivity" + self.reset)
 
 revIPLookup()
 
