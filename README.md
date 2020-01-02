@@ -12,7 +12,7 @@ Small tool to run reverse IP lookup for given IP, IP range or IP list
 
 ## Syntax
 ```
-# revIPLookup -i <IP/IP range>
+# revIPLookup -i <IP/IP range> # Ex: (use either x.x.x.x or x.x.x.x/x)
 # revIPLookup -f <IPListFile>
 ```
 
